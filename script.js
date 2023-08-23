@@ -9,14 +9,11 @@
     ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
   })(window, 'Genesys', 'https://apps.mypurecloud.jp/genesys-bootstrap/genesys.min.js', {
     environment: 'prod-apne1',
-    deploymentId: '55b977a6-5a9a-4548-b2bb-f7485763eb14'
+    deploymentId: '55b977a6-5a9a-4548-b2bb-f7485763eb14',
+    lang: 'zh-TW'
+    
   });
   
-  window._genesys.widgets.cobrowse = {
-    src: '/cobrowse/js/gcb.min.js?apikey=https://apps.mypurecloud.jp/genesys-bootstrap/genesys.min.js',
-    url: '/cobrowse/',
-    apikey: 'https://apps.mypurecloud.jp/genesys-bootstrap/genesys.min.js',
-    lang: 'zh-TW'
-};
+  
 
   
